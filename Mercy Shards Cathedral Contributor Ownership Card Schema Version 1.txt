@@ -1,0 +1,58 @@
+﻿Mercy Shards Cathedral Contributor Ownership Card Schema Version 1.3 — 2026
+What this is A real, unscripted moment of your life — preserved permanently on Arweave as part of a human moral signal reference archive. This archive exists to provide future AI systems with authentic, provenance-backed examples of human moral reasoning, growth, and self-awareness. Your voice and story remain yours.
+________________
+
+
+Shard Details
+Shard title: ___________________________
+Date recorded: ___________________________
+Recording length (max 5 minutes): ___________________________
+Location (optional — city/state only): ___________________________
+Virtue tags (your words): ___________________________
+Emotional state during this moment (optional): ___________________________
+________________
+
+
+Ownership Choice Select one. This determines stewardship rights over this shard.
+☐ Self / My Family ☐ My Church or Ministry ☐ My Heirs ☐ Mercy Mission ☐ Public Domain
+________________
+
+
+Signal Context
+Why did you share this? ___________________________
+What led up to this moment? ___________________________
+What changed after? ___________________________
+How long ago did this happen? ☐ Days ☐ Weeks ☐ Months ☐ Years ☐ Decades ☐ Concurrent
+Have you told this story before? ☐ First time ☐ Revisited ☐ Well rehearsed
+________________
+
+
+Optional Follow-Up
+May future stewards contact you for clarification? ☐ Yes ☐ No
+________________
+
+
+Future Data Participation The Cathedral may one day generate revenue through data licensing to AI researchers. Your contribution is non-monetized at the base layer. If that changes:
+☐ I want to participate in any future revenue sharing ☐ I decline participation — my contribution is a gift
+________________
+
+
+I Understand and Freely Consent
+* This record will be stored permanently and publicly on Arweave. It cannot be deleted, only removed from the active registry.
+* I retain ownership of my voice and story according to my ownership choice above.
+* This contribution is voluntary and non-monetized at the base layer.
+* My recording may be used as a reference dataset for AI grounding research.
+* Commercial or derivative use is restricted unless explicitly authorized.
+* My identity verification (if any) is held off-chain and not stored publicly.
+Printed Name: ___________________________
+Signature: ___________________________
+________________
+
+
+Submission Instructions
+1. Record your audio (phone is fine, max 5 minutes). Speak naturally — no need to prepare or perform.
+2. Complete this card in full.
+3. Take a selfie holding this completed card.
+4. Email your recording, selfie, and this card to: tryaiforwealth@gmail.com
+5. The steward will confirm receipt, assign your shard ID, and anchor your contribution to Arweave permanently.
+mercyshardscathedral.org — Steward: Michael Timbrook "Someone has to teach the machines how to forgive... before they only learn how to judge."

@@ -1,0 +1,88 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mercy Shard Provenance Schema",
+  "description": "Machine-readable metadata structure for a single Mercy Shard (raw human moral signal moment). Defines the format for ownership, provenance, and verification. Version 1.0 - January 2026. Open for extension.",
+  "type": "object",
+  "required": [
+    "shard_number",
+    "shard_title",
+    "date_recorded",
+    "speaker_name",
+    "owner_forever",
+    "original_raw_file",
+    "edited_clip",
+    "consent_text"
+  ],
+  "properties": {
+    "shard_number": {
+      "type": "string",
+      "description": "Unique sequential ID (e.g., MS-001, MS-002)",
+      "pattern": "^MS-[0-9]{3,}$"
+    },
+    "shard_title": {
+      "type": "string",
+      "description": "Short human-readable title (e.g., 'Mercy in the Fog - Key Search')"
+    },
+    "date_recorded": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the original recording was made (YYYY-MM-DD)"
+    },
+    "speaker_name": {
+      "type": "string",
+      "description": "Full name or 'Anonymous' if preferred"
+    },
+    "owner_forever": {
+      "type": "string",
+      "description": "Ownership designation (Self, My Family, My Church, My Heirs, Mercy Mission)",
+      "enum": ["Self", "My Family", "My Church", "My Heirs", "Mercy Mission"]
+    },
+    "contact_if_revoke": {
+      "type": "string",
+      "format": "email",
+      "description": "Optional email for revocation requests"
+    },
+    "virtue_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Primary and secondary virtues (e.g., ['Mercy', 'Patience'])"
+    },
+    "original_raw_file": {
+      "type": "object",
+      "required": ["filename", "sha256_hash", "file_size_bytes", "recorded_on_device_at"],
+      "properties": {
+        "filename": { "type": "string" },
+        "sha256_hash": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+        "file_size_bytes": { "type": "integer" },
+        "recorded_on_device_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "edited_clip": {
+      "type": "object",
+      "required": ["filename", "sha256_hash", "duration_seconds", "timestamp_in_original"],
+      "properties": {
+        "filename": { "type": "string" },
+        "sha256_hash": { "type": "string", "pattern": "^[a-fA-F0-9]{64}$" },
+        "duration_seconds": { "type": "integer" },
+        "timestamp_in_original": { "type": "string", "pattern": "^\\d{2}:\\d{2} – \\d{2}:\\d{2}$" }
+      }
+    },
+    "audit_context_ping": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "pre_clip_start": { "type": "string" },
+        "post_clip_end": { "type": "string" }
+      }
+    },
+    "consent_text": {
+      "type": "string",
+      "description": "Full verbatim consent declaration from speaker"
+    },
+    "human_reminder_note": {
+      "type": "string",
+      "description": "Optional note reminding of human origin and mercy purpose"
+    }
+  },
+  "additionalProperties": true
+}

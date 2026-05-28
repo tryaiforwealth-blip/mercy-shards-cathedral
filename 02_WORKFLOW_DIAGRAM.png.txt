@@ -1,0 +1,56 @@
+﻿Workflow Diagram
+
+
+Mercy Shard Workflow – High-Level Diagram (v1.0 – Jan 2026)
+
+
+START: Real Life Moment
+│
+▼
+1. CAPTURE (30–90 seconds unscripted audio/video)
+   • Phone recorder
+   • Safe setting (church foyer, prison, family, daily life)
+   • Prompt example: “Share a time mercy was shown or received”
+│
+▼
+2. CONSENT & OWNERSHIP (Immediate – on card or email)
+   • Speaker fills/signs Ownership Card (or types declaration)
+   • Selfie with card (visual human proof)
+   • Email to steward (tryaiforwealth@gmail.com)
+   • Declaration includes: title, owner choice, revocable consent
+│
+▼
+3. STEWARD RECEIVES & LOGS
+   • Save email + attachment(s) as first provenance link
+   • Move raw file to offline drive (Mercy Originals – Offline Only)
+│
+▼
+4. NEUTRAL EDITING & SIGNAL EXTRACTION
+   • Trim to strongest fragment (Clipchamp)
+   • Optional: Local Whisper transcription + AI timestamp suggestion (human override)
+   • Generate SHA-256 hashes (raw original + edited clip)
+│
+▼
+5. PERMANENCE & STORAGE
+   • Upload edited clip + provenance text (with hashes) to Arweave
+   • One-time endowment (~$0.50–$2)
+   • Receive permanent Arweave TX ID
+│
+▼
+6. MINT OWNERSHIP RECEIPT
+   • Mint NFT on Zora/Base (low gas)
+   • Image: Screenshot of signed card/selfie
+   • Description: Paste full provenance JSON (consent + hashes + TX ID)
+   • Receive Zora NFT link + transaction hash
+│
+▼
+7. UPDATE REGISTRY & BACKUP
+   • Add to public registry index (Arweave-hosted list)
+   • Backup originals/hashes/TX list to external drive + thumb drive
+   • Notify speaker: “Your shard is preserved. NFT link: [link]”
+│
+▼
+END: Shard Complete – Owned Forever
+   • Public proof: Arweave TX + Zora NFT + hashes
+   • Private proof: Offline raw originals
+   • Revocable anytime by speaker
