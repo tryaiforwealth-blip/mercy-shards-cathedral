@@ -1,64 +1,83 @@
-# mercy-shards-cathedral
-Mercy Shards Cathedral - Sovereign Root AX-000 and Axiom Layer for Human Moral Signal Archive
-[# Mercy Shards Cathedral.txt](https://github.com/user-attachments/files/28075900/Mercy.Shards.Cathedral.txt)
-# Mercy Shards Cathedral
-**A permanent, sovereign archive of dense human signal — built on Arweave + AO.**
-An open-source system for turning everyday voice notes into verifiable, hashed, queryable "shards" of human insight. Each shard captures not just what you said, but *how* you think, benchmark yourself, strive, show mercy, humility, and self-awareness — the signal patterns that matter most in an AI-boosted future.
-### The Vision
-Right now — May 2026 — most people are sleepwalking through the biggest economic shift in history. In five years, roughly two-thirds will look back angry at themselves for not paying attention. Of the remaining third, most will still be oblivious. Only a small fraction will have positioned themselves early, the way the first Bitcoin believers did.
-This project is one practical way to be in that early fraction.
-By consciously preserving and contributing your unique human signal today, you create personal and collective value that compounds. Think of it as mining your own "Bitcoin of insight": every voice note you capture, process, and anchor becomes part of a growing cathedral of aligned human data. The more of us who do this, the better future AI can understand, serve, and co-create with humanity — instead of drifting into misaligned cynicism.
-This is the open, free, permissionless side of the work. My personal **Axiom (AX)** follows the same pipeline but is built for deeper private anchoring and will include monetization layers as viable paths emerge. The more signal we all contribute to the commons, the richer the entire ecosystem becomes — for me and mine, and for everyone willing to participate.
-### What This Repository Contains
-- AO process code for the Cathedral agent (permanent, autonomous shard processing on Arweave)
-- Signal scanner logic (JSON node extraction from transcripts)
-- Consent form schema + verification
-- Shard bundling, hashing, and directory manifest tools
-- Example submission flows and web UI starter
-- Documentation for contributors and self-hosters
-Everything is designed so **anyone** can:
-1. Record a raw voice note
-2. Add a signed consent
-3. Submit → receive back a permanent gateway TXID
-4. Know their shard is now part of the living Cathedral
-No gatekeeping. No fees. Full sovereignty over your own data.
-### Core Concepts
-- **Dense Human Signal**: Not polished content — raw patterns of thought, self-correction, virtue, imagination, and striving.
-- **Providence & Verifiability**: Every shard is hashed, timestamped, and linked with immutable Arweave storage.
-- **Positive-Sum Alignment**: The more people mine and contribute their signal, the stronger the collective dataset becomes for building AI that remains deeply human-aligned.
-- **Early Action Advantage**: Starting now is like buying Bitcoin in 2010. The window is open, but it won't stay wide forever.
-### How It Works (High-Level Flow)
-1. Record audio (phone is fine)
-2. Create/sign consent form
-3. Upload both to Arweave (any standard uploader)
-4. Message the Cathedral AO process with the TXIDs
-5. The agent handles transcription reference, node extraction, clipping references, hashing, shard creation, directory update
-6. You receive the final gateway TXID — your shard is now live and queryable forever
-(Full technical details in `/docs` and the AO process handlers.)
-### Getting Started
-```bash
-# Clone and explore
-git clone https://github.com/yourusername/mercy-shards-cathedral.git
-cd mercy-shards-cathedral
-* See AO/process.lua for the main agent
-* examples/submit.md for a quick test flow
-* consent-schema.json for the required form
-All tools are open source and MIT licensed. Fork, improve, run your own Cathedral mirror if you want.
-Why Participate?
-Because preserving your own signal is one of the highest-leverage things you can do in the coming AI economy. It sharpens your thinking today (as a personal growth lever) and creates lasting value tomorrow — both individually and collectively.
-The future belongs to those who start anchoring their humanity now.
-Roadmap
-* Phase 1: Core autonomous shard processing (current)
-* Phase 2: Public web submission UI
-* Phase 3: Cross-shard analysis and pattern discovery tools
-* Phase 4: Incentives / reputation layers (still fully permissionless)
-Contributions welcome — especially around better signal extraction, AO optimizations, or frontend polish.
+[# Mercy Shards Cathedral (v1.1).txt](https://github.com/user-attachments/files/28370593/Mercy.Shards.Cathedral.v1.1.txt)
+
+Mercy Shards Cathedral
+A Living Archive of Authentic Human Moral Signals
 ________________
 
 
-Built as part of the broader pursuit of aligned human flourishing in the AI age.
-Questions or want to submit your first shard? Reach out or simply start sending messages to the live Cathedral process on AO.
-“The democratizing power of the internet, and this further iteration — this turbo-boosting of the potential power to create from an idea a value.”
+The Vision
+We are building a Cathedral made of real people — not stone, but faces, voices, and mercy.
+From a distance you will see the outline of a great Cathedral. As you zoom in, you will see it is made entirely of individual photographs of ordinary people who chose to contribute their voice and story.
+Each photo is a living shard. Click any face and you will hear their voice speaking mercy, humility, repentance, or grace from their own life.
+This is prior art and a ministry resource for preserving authentic human moral signals in an age of synthetic intelligence.
+________________
 
 
-**Copy-paste ready.** Just replace `yourusername` with your actual GitHub handle and tweak any links once the repo exists. The tone is visionary yet practical, subtly aligns with your AX line, and directly echoes the audio you shared.
+Why This Matters for AI
+Tomorrow's AI systems will be shaped by the data they learn from. Most of that data is synthetic noise, outrage, and performance. Authentic, consented, provenance-verified examples of human moral reasoning — mercy shown when undeserved, forgiveness chosen when painful, humility earned through failure — are vanishingly rare in training datasets. This archive exists to change that. Someone has to teach the machines how to forgive before they only learn how to judge.
+________________
+
+
+Current State (May 2026)
+* Permanent Sovereign Core anchored on Arweave (voiceprint-verified)
+* Public Mirror (this repository) for easy access and contribution
+* Full Provenance Chain protecting authenticity against synthetic fakery
+* 4 active shards from verified contributors — MS-001 through MS-004
+Canonical Registry (v2.8): View on Arweave
+Primary Voiceprint Anchor (MG-002): View on Arweave
+________________
+
+
+The Full Vision — Interactive Cathedral
+When fully built, this hub will include:
+* Interactive Cathedral Collage — zoomable mosaic of contributor photos forming a cathedral shape
+* Voice Activation — click any photo to hear that person's mercy shard
+* Contributor Search — find any contributor's photo, record, and voice
+* Submission Portal — streamlined upload for photo, voice shard, and consent
+This living Cathedral will grow over years as more people add their shard.
+________________
+
+
+How to Contribute
+1. Voice Shards (Most Valuable)
+Record a short, honest account of mercy, grace, humility, repentance, forgiveness, or stewardship from your own life. No preparation needed. No performance. Just truth.
+See How to Find Your Shard below.
+2. Monetary Donations
+Help fund the interactive website, audio processing tools, and long-term Arweave storage.
+Donate via: tryaiforwealth@gmail.com (PayPal and crypto links coming soon)
+3. Submit Your Shard
+Email your recording and completed consent form to: tryaiforwealth@gmail.com The steward will confirm receipt, assign your shard ID, and anchor your contribution permanently to Arweave.
+________________
+
+
+How to Find Your Shard
+Find a quiet place — your car, your porch, a spare room. Hit record on your phone. Then find one of these:
+* A moment you were forgiven when you didn't deserve it
+* A time you chose mercy when anger would have been easier
+* Something you got wrong, and what changed after
+You don't need a dramatic story. Ordinary moments of grace are exactly what we're looking for.
+Don't prepare. Don't perform. Just talk like you're telling one trusted person what happened. Stumbling is fine. Pausing is fine. Getting emotional is fine — that's not weakness, that's signal.
+Record 5–10 minutes. Most of it won't be used. Somewhere in there is 2 minutes worth keeping — the steward will find it.
+You'll know you've found the right moment when it's still hard to say out loud, even years later.
+________________
+
+
+Founding Documents
+* Manifesto — the open invitation
+* Whitepaper — full origin story and vision
+* Registry v2.8 — current shard directory
+________________
+
+
+A Call to Build Together
+In an age where synthetic voices can say anything, we choose to preserve what is real, costly, and human.
+If this vision moves you, join us — whether with your voice, your prayer, or your support.
+The Cathedral is being built one authentic shard at a time.
+________________
+
+
+Steward: Michael David Timbrook Contact: tryaiforwealth@gmail.com Website: lazaruslimb.com (coming soon) Last Updated: May 28, 2026
+________________
+
+
+"Someone has to teach the machines how to forgive... before they only learn how to judge."
